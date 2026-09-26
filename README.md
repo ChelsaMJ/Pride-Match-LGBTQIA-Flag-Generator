@@ -35,18 +35,6 @@ You can also serve the project with any static web server. Opening `index.html` 
 - `assets/flags/` - Bundled flag artwork
 - `server.py` - Local development server
 
-## Deployment
-
-This repository is ready for Vercel as a static site:
-
-1. Import the GitHub repository into Vercel.
-2. Leave the framework preset as **Other**.
-3. Leave the build command blank.
-4. Use the repository root as the output directory.
-5. Deploy.
-
-No build step or environment variables are required.
-
 ## Content Note
 
 PrideMatch is an educational reference tool, not a diagnostic service. Identity labels and flag meanings can vary across communities and over time.
