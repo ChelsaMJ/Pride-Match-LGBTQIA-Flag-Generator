@@ -5782,62 +5782,6 @@ export const FLAGS_DATA = [
     "origin": "Featured in LGBTQIA+ Pride Flag Gallery under 'Other illustrations'."
   },
   {
-    "id": "bear_variant_2",
-    "name": "Bear (Variant 2)",
-    "category": "Sexual Orientations",
-    "categories": [
-      "Sexual Orientations"
-    ],
-    "imageUrl": "assets/flags/Bear_Flag.svg",
-    "shortDesc": "One of the many long-standing gay subcultures, a bear in an LGBTQIA+ context is a large, hairy queer man who self-identifies with the bea...",
-    "description": "One of the many long-standing gay subcultures, a bear in an LGBTQIA+ context is a large, hairy queer man who self-identifies with the bear label. Being a bear combines gender expression, gender identity, and sexuality; a large, hairy straight man would not be a bear. They are generally masculine-presenting men over the age of 30 whose build may include a big belly, legs, and/or butt. Bears almost always have a full beard or facial hair, and they are often associated with so-called traditional masculinity or rugged masculinity. However, there is a debate within the bear community regarding the acceptability of femininity; they tend to be contrasted with identities such as twinks and femmes. Although bears are implicitly masculine people, being a bear is not about specific mannerisms or identities like masc, and bear identity does not indicate preferred partners or sexual roles. The bear community shares its defining characteristics with the animal of the same name, known for being large and hairy. Some in the community identify with a range of bear cultural associations, including the cuddly qualities of teddy bears.[source?]",
-    "stripes": [
-      {
-        "color": "#623804",
-        "label": "Color #623804",
-        "meaning": "Symbolic stripe (#623804) of the Bear (Variant 2) flag."
-      },
-      {
-        "color": "#D56300",
-        "label": "Color #D56300",
-        "meaning": "Symbolic stripe (#D56300) of the Bear (Variant 2) flag."
-      },
-      {
-        "color": "#FEDD63",
-        "label": "Color #FEDD63",
-        "meaning": "Symbolic stripe (#FEDD63) of the Bear (Variant 2) flag."
-      },
-      {
-        "color": "#FEE6B8",
-        "label": "Color #FEE6B8",
-        "meaning": "Symbolic stripe (#FEE6B8) of the Bear (Variant 2) flag."
-      },
-      {
-        "color": "#FFFFFF",
-        "label": "Color #FFFFFF",
-        "meaning": "Symbolic stripe (#FFFFFF) of the Bear (Variant 2) flag."
-      },
-      {
-        "color": "#555555",
-        "label": "Color #555555",
-        "meaning": "Symbolic stripe (#555555) of the Bear (Variant 2) flag."
-      }
-    ],
-    "tags": [
-      "other illustrations",
-      "bear (variant 2)",
-      "bear variant 2",
-      "sexual orientations",
-      "(variant",
-      "bear",
-      "2)"
-    ],
-    "sam": [
-      "sexual"
-    ],
-    "origin": "Featured in LGBTQIA+ Pride Flag Gallery under 'Other illustrations'."
-  },
-  {
     "id": "enbian",
     "name": "Enbian",
     "category": "Sexual Orientations",
