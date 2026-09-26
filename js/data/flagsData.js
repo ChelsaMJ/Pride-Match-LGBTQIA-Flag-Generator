@@ -2569,8 +2569,8 @@ export const FLAGS_DATA = [
       "Sexual Orientations"
     ],
     "imageUrl": "assets/flags/Queerhet_Kaestral.svg",
-    "shortDesc": "Straight queer[note 1] or heteroqueer,[note 1] when used as a personal identity label, generally means someone who is primarily heterosex...",
-    "description": "Straight queer[note 1] or heteroqueer,[note 1] when used as a personal identity label, generally means someone who is primarily heterosexual in their sexual orientation but also identifies with queerness in some other aspect of their sexuality, their gender, or both. Some examples of heterosexual people whose gender may be considered queer are transgender people (of any gender identity) or a person who is non-binary, genderqueer, or agender. Another definition of heteroqueer is a person who is only attracted to people of a sex group other than their own but is comfortable with the possibility of being attracted to someone of their own sex group in the future. Aside from their use as a personal identifier, the terms straight queer and heteroqueer have been used in academia in ways that are elaborated upon in the etymology section.",
+    "shortDesc": "This pride flag represents people who are heterosexual (straight) while also identifying as part of the broader LGBTQIA+ communit...",
+    "description": "This pride flag represents people who are heterosexual (straight) while also identifying as part of the broader LGBTQIA+ community (such as trans, nonbinary, intersex, or asexual individuals). The color design transitions from colors representing queerness on the top to straightness on the bottom.",
     "stripes": [
       {
         "color": "#4D8592",
@@ -3028,7 +3028,7 @@ export const FLAGS_DATA = [
   },
   {
     "id": "lesbian_variant_3",
-    "name": "Lesbian (Double_Venus)",
+    "name": "Lesbian (Double Venus)",
     "category": "Sexual Orientations",
     "categories": [
       "Sexual Orientations"
@@ -4316,8 +4316,8 @@ export const FLAGS_DATA = [
       "Sexual Orientations"
     ],
     "imageUrl": "assets/flags/Straight_Queer.svg",
-    "shortDesc": "Straight queer[note 1] or heteroqueer,[note 1] when used as a personal identity label, generally means someone who is primarily heterosex...",
-    "description": "Straight queer[note 1] or heteroqueer,[note 1] when used as a personal identity label, generally means someone who is primarily heterosexual in their sexual orientation but also identifies with queerness in some other aspect of their sexuality, their gender, or both. Some examples of heterosexual people whose gender may be considered queer are transgender people (of any gender identity) or a person who is non-binary, genderqueer, or agender. Another definition of heteroqueer is a person who is only attracted to people of a sex group other than their own but is comfortable with the possibility of being attracted to someone of their own sex group in the future. Aside from their use as a personal identifier, the terms straight queer and heteroqueer have been used in academia in ways that are elaborated upon in the etymology section.",
+    "shortDesc": "It represents individuals who identify as both heterosexual (straight) and queer—such as straight transgender people, heteroflexible ind...",
+    "description": "It represents individuals who identify as both heterosexual (straight) and queer—such as straight transgender people, heteroflexible individuals, or straight people involved in queer communities or relationships.",
     "stripes": [
       {
         "color": "#90488C",
