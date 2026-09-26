@@ -59,14 +59,16 @@ class App {
       : '';
 
     root.innerHTML = `
-      <div class="min-h-screen bg-slate-950 text-slate-100 flex flex-col font-sans selection:bg-purple-500 selection:text-white">
+      <div class="site-shell min-h-screen text-slate-100 flex flex-col font-sans selection:bg-purple-500 selection:text-white">
+        <div class="site-backlight" aria-hidden="true"></div>
+        <div class="ambient-particles" aria-hidden="true"></div>
         ${renderHeader(this.state.activeView)}
         
-        <main class="flex-1 px-4 sm:px-6 lg:px-8 py-8">
+        <main class="relative z-10 flex-1 px-4 sm:px-6 lg:px-8 py-8">
           ${viewContent}
         </main>
 
-        <footer class="border-t border-slate-900 py-6 text-center text-xs text-slate-500 space-y-1 bg-slate-950">
+        <footer class="border-t border-white/10 py-6 text-center text-xs text-slate-500 space-y-1 bg-slate-950/45 backdrop-blur-sm">
           <p class="font-semibold text-slate-400">PrideMatch — LGBT+ Orientation & Flag Educational Finder</p>
           <p>Designed for inclusive education, self-discovery, and pride flag celebration.</p>
         </footer>

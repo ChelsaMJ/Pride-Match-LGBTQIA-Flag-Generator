@@ -1,3 +1,131 @@
+/* Colorful layered canvas behind the app surfaces */
+:root {
+  color-scheme: dark;
+  --page-ink: #07111f;
+  --page-blue: #123b63;
+  --page-pink: #7d214f;
+  --page-gold: #8c5c1d;
+  --page-teal: #075b63;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  position: relative;
+  isolation: isolate;
+  background: var(--page-ink);
+  overflow-x: hidden;
+}
+
+body::before {
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  content: "";
+  background:
+    linear-gradient(180deg, rgba(5, 8, 20, 0.58), rgba(5, 8, 20, 0.82)),
+    linear-gradient(118deg, transparent 0 16%, rgba(255, 52, 122, 0.42) 17% 21%, transparent 22% 39%, rgba(255, 188, 42, 0.34) 40% 44%, transparent 45%),
+    linear-gradient(66deg, transparent 0 28%, rgba(37, 211, 190, 0.4) 29% 34%, transparent 35% 57%, rgba(70, 130, 255, 0.38) 58% 64%, transparent 65%),
+    conic-gradient(from 215deg at 50% 42%, #321252, #123d70 18%, #08706b 36%, #7d851c 51%, #c04a24 67%, #a71958 82%, #321252);
+  background-size: 150% 150%, 135% 135%, 100% 100%;
+  background-blend-mode: multiply, screen, screen, normal;
+  animation: backgroundDrift 24s ease-in-out infinite alternate;
+}
+
+body::after {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  content: "";
+  pointer-events: none;
+  opacity: 0.18;
+  background-image: repeating-linear-gradient(0deg, rgba(255, 255, 255, 0.035) 0 1px, transparent 1px 5px);
+  mix-blend-mode: overlay;
+}
+
+.site-shell {
+  position: relative;
+  overflow: hidden;
+}
+
+.site-backlight {
+  position: absolute;
+  top: 7rem;
+  left: 50%;
+  width: min(48rem, 88vw);
+  height: 28rem;
+  pointer-events: none;
+  transform: translateX(-50%);
+  background: conic-gradient(from 210deg, rgba(236, 72, 153, 0.24), rgba(59, 130, 246, 0.2), rgba(45, 212, 191, 0.2), rgba(250, 204, 21, 0.16), rgba(236, 72, 153, 0.24));
+  filter: blur(72px);
+  opacity: 0.78;
+  animation: backlightPulse 9s ease-in-out infinite alternate;
+}
+
+.ambient-particles {
+  position: absolute;
+  inset: 4rem 0 0;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.8;
+  background-image:
+    radial-gradient(circle at 8% 20%, rgba(251, 113, 133, 0.95) 0 1px, transparent 2px),
+    radial-gradient(circle at 18% 72%, rgba(250, 204, 21, 0.9) 0 1.5px, transparent 2.5px),
+    radial-gradient(circle at 31% 42%, rgba(45, 212, 191, 0.9) 0 1px, transparent 2px),
+    radial-gradient(circle at 44% 84%, rgba(96, 165, 250, 0.85) 0 1.5px, transparent 2.5px),
+    radial-gradient(circle at 58% 16%, rgba(232, 121, 249, 0.85) 0 1px, transparent 2px),
+    radial-gradient(circle at 73% 62%, rgba(251, 146, 60, 0.9) 0 1px, transparent 2px),
+    radial-gradient(circle at 86% 28%, rgba(52, 211, 153, 0.85) 0 1.5px, transparent 2.5px),
+    radial-gradient(circle at 94% 82%, rgba(244, 114, 182, 0.9) 0 1px, transparent 2px);
+  background-size: 23rem 31rem, 29rem 37rem, 31rem 27rem, 37rem 41rem, 41rem 29rem, 27rem 39rem, 35rem 33rem, 43rem 35rem;
+  animation: emberFloat 18s linear infinite;
+  mask-image: linear-gradient(to bottom, transparent, black 12%, black 88%, transparent);
+}
+
+@keyframes backlightPulse {
+  from {
+    transform: translateX(-50%) scale(0.92) rotate(-3deg);
+    opacity: 0.58;
+  }
+  to {
+    transform: translateX(-50%) scale(1.08) rotate(3deg);
+    opacity: 0.84;
+  }
+}
+
+@keyframes emberFloat {
+  from {
+    background-position: 0 12rem, 4rem 30rem, 12rem 0, 20rem 26rem, 30rem 10rem, 18rem 34rem, 42rem 4rem, 50rem 28rem;
+  }
+  to {
+    background-position: 8rem -4rem, -3rem 12rem, 24rem -8rem, 5rem 10rem, 12rem -6rem, 30rem 18rem, 28rem -10rem, 62rem 14rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body::before,
+  .site-backlight,
+  .ambient-particles {
+    animation: none;
+  }
+}
+
+@keyframes backgroundDrift {
+  from {
+    background-position: 0% 0%, 100% 100%, 0 0;
+  }
+  to {
+    background-position: 18% 8%, 84% 92%, 0 0;
+  }
+}
+
+.site-shell {
+  background: linear-gradient(180deg, rgba(7, 17, 31, 0.32), rgba(7, 17, 31, 0.72));
+}
+
 /* Custom Styles & Pride Animations */
 
 @keyframes fadeIn {
