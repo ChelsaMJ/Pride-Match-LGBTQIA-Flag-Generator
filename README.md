@@ -38,3 +38,7 @@ You can also serve the project with any static web server. Opening `index.html` 
 ## Content Note
 
 PrideMatch is an educational reference tool, not a diagnostic service. Identity labels and flag meanings can vary across communities and over time.
+
+## Resources and Attribution
+
+The pride flag artwork, names, and informational reference material are based on the [Pride flag gallery](https://lgbtqia.fandom.com/wiki/Pride_flag_gallery). Visit the gallery for additional flag information and community context.
