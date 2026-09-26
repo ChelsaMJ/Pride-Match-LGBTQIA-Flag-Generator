@@ -982,7 +982,7 @@ export const FLAGS_DATA = [
     ],
     "imageUrl": "assets/flags/Alloace_Flag.svg",
     "shortDesc": "Alloace is a pride identity flag featured in the LGBTQIA+ Pride Flag Gallery.",
-    "description": "Alloace is a pride identity flag featured in the LGBTQIA+ Pride Flag Gallery.",
+    "description": "Represents individuals who experience romantic attraction (alloromantic) while also being on the asexual spectrum.",
     "stripes": [
       {
         "color": "#D50000",
@@ -1026,7 +1026,7 @@ export const FLAGS_DATA = [
     ],
     "imageUrl": "assets/flags/Oriented_Aroace_Flag.svg",
     "shortDesc": "Oriented aroace is a pride identity flag featured in the LGBTQIA+ Pride Flag Gallery.",
-    "description": "Oriented aroace is a pride identity flag featured in the LGBTQIA+ Pride Flag Gallery.",
+    "description": "Represents people who are both aromantic and asexual (aroace) and feel that their non-romantic or non-sexual attractions (such as aesthetic, platonic, or alterous attraction) are an important part of their identity.",
     "stripes": [
       {
         "color": "#161639",
@@ -1075,7 +1075,7 @@ export const FLAGS_DATA = [
     ],
     "imageUrl": "assets/flags/Cupiosexual_Flag.svg",
     "shortDesc": "Cupiosexual is a pride identity flag featured in the LGBTQIA+ Pride Flag Gallery.",
-    "description": "Cupiosexual is a pride identity flag featured in the LGBTQIA+ Pride Flag Gallery.",
+    "description": "Cupiosexual means a person does not experience sexual attraction to others, but still actively desires or wants to have a sexual relationship",
     "stripes": [
       {
         "color": "#9E9E9E",
@@ -1120,7 +1120,7 @@ export const FLAGS_DATA = [
     ],
     "imageUrl": "assets/flags/Fraysexual_Flag.svg",
     "shortDesc": "Fraysexual is a pride identity flag featured in the LGBTQIA+ Pride Flag Gallery.",
-    "description": "Fraysexual is a pride identity flag featured in the LGBTQIA+ Pride Flag Gallery.",
+    "description": "A sexual orientation where a person feels a strong sexual attraction to strangers or people they do not know well, but that attraction fades as familiarity and emotional intimacy grow",
     "stripes": [
       {
         "color": "#3D69B3",
@@ -1749,7 +1749,7 @@ export const FLAGS_DATA = [
     ],
     "imageUrl": "assets/flags/Aroflux_Flag.svg",
     "shortDesc": "Aroflux is a pride identity flag featured in the LGBTQIA+ Pride Flag Gallery.",
-    "description": "Aroflux is a pride identity flag featured in the LGBTQIA+ Pride Flag Gallery.",
+    "description": "A romantic orientation on the aromantic spectrum where a person's level of romantic attraction shifts or fluctuates over time.",
     "stripes": [
       {
         "color": "#D5205C",
@@ -1854,7 +1854,7 @@ export const FLAGS_DATA = [
     ],
     "imageUrl": "assets/flags/Angled_Aroace_Flag.svg",
     "shortDesc": "Angled aroace is a pride identity flag featured in the LGBTQIA+ Pride Flag Gallery.",
-    "description": "Angled aroace is a pride identity flag featured in the LGBTQIA+ Pride Flag Gallery.",
+    "description": "A person on both the aromantic spectrum and the asexual spectrum who experiences another significant form of attraction or orientation.",
     "stripes": [
       {
         "color": "#FEF297",
@@ -1906,7 +1906,7 @@ export const FLAGS_DATA = [
     ],
     "imageUrl": "assets/flags/Aroaceflux_Flag.svg",
     "shortDesc": "Aroaceflux is a pride identity flag featured in the LGBTQIA+ Pride Flag Gallery.",
-    "description": "Aroaceflux is a pride identity flag featured in the LGBTQIA+ Pride Flag Gallery.",
+    "description": "A sexual and romantic orientation where a person's feelings of attraction fluctuate over time, but generally stay on the asexual and aromantic spectrums.",
     "stripes": [
       {
         "color": "#F8575D",
@@ -1956,7 +1956,7 @@ export const FLAGS_DATA = [
     ],
     "imageUrl": "assets/flags/Alloaro_Flag.svg",
     "shortDesc": "Alloaro is a pride identity flag featured in the LGBTQIA+ Pride Flag Gallery.",
-    "description": "Alloaro is a pride identity flag featured in the LGBTQIA+ Pride Flag Gallery.",
+    "description": "A person who is both allosexual (experiences sexual attraction) and on the aromantic spectrum (experiences little to no romantic attraction).",
     "stripes": [
       {
         "color": "#3DA542",
@@ -2106,7 +2106,7 @@ export const FLAGS_DATA = [
     ],
     "imageUrl": "assets/flags/Gray-aromantic_Flag.svg",
     "shortDesc": "Grayromantic is a pride identity flag featured in the LGBTQIA+ Pride Flag Gallery.",
-    "description": "Grayromantic is a pride identity flag featured in the LGBTQIA+ Pride Flag Gallery.",
+    "description": "A romantic orientation describing people who experience romantic attraction rarely, weakly, or only under specific conditions.",
     "stripes": [
       {
         "color": "#2DA038",
@@ -2187,7 +2187,7 @@ export const FLAGS_DATA = [
     ],
     "imageUrl": "assets/flags/Lithromantic_Flag.svg",
     "shortDesc": "Lithromantic is a pride identity flag featured in the LGBTQIA+ Pride Flag Gallery.",
-    "description": "Lithromantic is a pride identity flag featured in the LGBTQIA+ Pride Flag Gallery.",
+    "description": "A romantic orientation where a person experiences romantic attraction, but does not want those feelings to be reciprocated or loses interest when the other person returns the affection.",
     "stripes": [
       {
         "color": "#2A2A2A",
@@ -2664,7 +2664,7 @@ export const FLAGS_DATA = [
     ],
     "imageUrl": "assets/flags/Toric_flag.svg",
     "shortDesc": "Toric is a pride identity flag featured in the LGBTQIA+ Pride Flag Gallery.",
-    "description": "Toric is a pride identity flag featured in the LGBTQIA+ Pride Flag Gallery.",
+    "description": "It refers to a non-binary person who is romantically or sexually attracted to men, whether exclusively or not.",
     "stripes": [
       {
         "color": "#B452CD",
@@ -2711,7 +2711,7 @@ export const FLAGS_DATA = [
     ],
     "imageUrl": "assets/flags/Trixic_flag.svg",
     "shortDesc": "Trixic is a pride identity flag featured in the LGBTQIA+ Pride Flag Gallery.",
-    "description": "Trixic is a pride identity flag featured in the LGBTQIA+ Pride Flag Gallery.",
+    "description": "A non-binary person who is attracted to women.",
     "stripes": [
       {
         "color": "#B452CD",
@@ -3475,7 +3475,7 @@ export const FLAGS_DATA = [
     ],
     "imageUrl": "assets/flags/Agenderflux_Flag.svg",
     "shortDesc": "Agenderflux is a pride identity flag featured in the LGBTQIA+ Pride Flag Gallery.",
-    "description": "Agenderflux is a pride identity flag featured in the LGBTQIA+ Pride Flag Gallery.",
+    "description": "Agenderflux, also sometimes referred to as librafluid, is where a person may experience various degrees of feeling any gender at all, hence the use of agender in the term. At least 37 participants (0.1%) in the 2025 Gender Census reported identifying with the exact term agenderflux, with some respondents additionally or instead identifying with variations such as librafluid.",
     "stripes": [
       {
         "color": "#000000",
@@ -3609,7 +3609,7 @@ export const FLAGS_DATA = [
     ],
     "imageUrl": "assets/flags/Demiboy_Flag.svg",
     "shortDesc": "Demiboy is a pride identity flag featured in the LGBTQIA+ Pride Flag Gallery.",
-    "description": "Demiboy is a pride identity flag featured in the LGBTQIA+ Pride Flag Gallery.",
+    "description": "Demiboy (also known as Demihomme or Demigars ) is a non-binary gender in which one is partially, but not entirely, a boy or a man . They may or may not identify with another gender in addition to being partly a boy . The other part of the gender can be any gender or combination of genders, including a lack of gender. Demiboy can be used regardless of the gender assigned at birth. One may feel more or less like a boy . This varies from person to person. Some demiboys may experience physical discomfort or dysphoria.",
     "stripes": [
       {
         "color": "#7F7F7F",
@@ -3654,7 +3654,7 @@ export const FLAGS_DATA = [
     ],
     "imageUrl": "assets/flags/Demigirl_Flag.svg",
     "shortDesc": "Demigirl is a pride identity flag featured in the LGBTQIA+ Pride Flag Gallery.",
-    "description": "Demigirl is a pride identity flag featured in the LGBTQIA+ Pride Flag Gallery.",
+    "description": "Demigirl , also known as demigirl or demiwoman , is a non-binary gender in which one is partially, but not completely, a girl/woman . They may or may not identify with another gender in addition to being partly a girl . The other part of the gender can be any gender or combination of genders, including a lack of gender. Demigirl can be used by any AFAB, AMAB, or AXAB individual. One may feel more or less like a girl; however, this varies from person to person. Some demigirls may experience physical discomfort or dysphoria.",
     "stripes": [
       {
         "color": "#7F7F7F",
@@ -3698,7 +3698,7 @@ export const FLAGS_DATA = [
     ],
     "imageUrl": "assets/flags/Demifluid_flag.svg",
     "shortDesc": "Demifluid is a pride identity flag featured in the LGBTQIA+ Pride Flag Gallery.",
-    "description": "Demifluid is a pride identity flag featured in the LGBTQIA+ Pride Flag Gallery.",
+    "description": "Demifluid describes a gender identity where a person feels a partial connection to a gender, and that partial connection is fluid over time.It is part of the broader demigender and genderfluid umbrellas.",
     "stripes": [
       {
         "color": "#7F7F7F",
@@ -3735,7 +3735,7 @@ export const FLAGS_DATA = [
     ],
     "imageUrl": "assets/flags/Demiflux.svg",
     "shortDesc": "Demiflux is a pride identity flag featured in the LGBTQIA+ Pride Flag Gallery.",
-    "description": "Demiflux is a pride identity flag featured in the LGBTQIA+ Pride Flag Gallery.",
+    "description": "A person who has multiple genders, some static and some fluctuating in intensity.",
     "stripes": [
       {
         "color": "#7F7F7F",
@@ -3782,7 +3782,7 @@ export const FLAGS_DATA = [
     ],
     "imageUrl": "assets/flags/Boyflux_Flag.svg",
     "shortDesc": "Boyflux is a pride identity flag featured in the LGBTQIA+ Pride Flag Gallery.",
-    "description": "Boyflux is a pride identity flag featured in the LGBTQIA+ Pride Flag Gallery.",
+    "description": "Boyflux, also sometimes referred to as manflux, is where a person may have a gender that fluctuates between fully masculine, partially masculine (such as a demiboy), genderless, and various degrees of intensity in-between. Counting manflux as a variation of boyflux, 65 participants (0.1%) in the 2025 Gender Census reported that they have this identity.",
     "stripes": [
       {
         "color": "#D6E9F9",
@@ -3824,7 +3824,7 @@ export const FLAGS_DATA = [
     ],
     "imageUrl": "assets/flags/Girlflux_Flag.svg",
     "shortDesc": "Girlflux is a pride identity flag featured in the LGBTQIA+ Pride Flag Gallery.",
-    "description": "Girlflux is a pride identity flag featured in the LGBTQIA+ Pride Flag Gallery.",
+    "description": "Girlflux, also sometimes referred to as womanflux, is where a person experiences a range of intensity of female identity, such as fluctuating between being a girl, a demigirl, genderless, and various degrees of intensity in-between.",
     "stripes": [
       {
         "color": "#F8E7D6",
@@ -3866,7 +3866,7 @@ export const FLAGS_DATA = [
     ],
     "imageUrl": "assets/flags/Genderfae_Flag.svg",
     "shortDesc": "Genderfae is a pride identity flag featured in the LGBTQIA+ Pride Flag Gallery.",
-    "description": "Genderfae is a pride identity flag featured in the LGBTQIA+ Pride Flag Gallery.",
+    "description": "People who are genderfae experience fluid genders that never include male or masculine identities. They may feel connected to feminine, neutral, unaligned genders, or a lack of gender.",
     "stripes": [
       {
         "color": "#97C3A5",
@@ -3923,7 +3923,7 @@ export const FLAGS_DATA = [
     ],
     "imageUrl": "assets/flags/Genderfaun_Flag.svg",
     "shortDesc": "Genderfaun is a pride identity flag featured in the LGBTQIA+ Pride Flag Gallery.",
-    "description": "Genderfaun is a pride identity flag featured in the LGBTQIA+ Pride Flag Gallery.",
+    "description": "It is a form of genderfluidity. A person who is genderfaun feels many different genders over time. This identity never includes female or feminine genders.People can be fluid between masculine genders, neutral genders, or being agender (having no gender).",
     "stripes": [
       {
         "color": "#FCC689",
@@ -3980,7 +3980,7 @@ export const FLAGS_DATA = [
     ],
     "imageUrl": "assets/flags/Genderflor_Flag.svg",
     "shortDesc": "Genderflor is a pride identity flag featured in the LGBTQIA+ Pride Flag Gallery.",
-    "description": "Genderflor is a pride identity flag featured in the LGBTQIA+ Pride Flag Gallery.",
+    "description": "An identity under the non-binary and genderfluid umbrella. They experience fluidity between multiple genders, but never male, masculine, female, or feminine.",
     "stripes": [
       {
         "color": "#96C3A4",
@@ -4135,7 +4135,7 @@ export const FLAGS_DATA = [
     ],
     "imageUrl": "assets/flags/Non-Binary_Boy_Flag.svg",
     "shortDesc": "Non-binary boy is a pride identity flag featured in the LGBTQIA+ Pride Flag Gallery.",
-    "description": "Non-binary boy is a pride identity flag featured in the LGBTQIA+ Pride Flag Gallery.",
+    "description": "An enboy (or non-binary man) is someone who simultaneously identifies as both a boy and non-binary. This identity can manifest in various ways, such as having a masculine-aligned or multigender experience, being partially connected to boyhood (like a demiboy), feeling a gender similar to but distinct from a binary male, or simply using masculine pronouns and presentation while maintaining a non-binary framework.",
     "stripes": [
       {
         "color": "#0076A3",
@@ -4180,7 +4180,7 @@ export const FLAGS_DATA = [
     ],
     "imageUrl": "assets/flags/Non-Binary_Girl_Flag.svg",
     "shortDesc": "Non-binary girl is a pride identity flag featured in the LGBTQIA+ Pride Flag Gallery.",
-    "description": "Non-binary girl is a pride identity flag featured in the LGBTQIA+ Pride Flag Gallery.",
+    "description": "A non-binary woman (also called a non-binary girl or girlby) refers to someone who identifies simultaneously as both a woman and non-binary. This identity can take various forms, such as being female-aligned or multigender, identifying partially as female (like a demigirl), feeling a gender similar to but distinct from a binary female (such as juxera), or simply using feminine pronouns and presentation while maintaining a non-binary framework.",
     "stripes": [
       {
         "color": "#E64967",
@@ -4945,7 +4945,7 @@ export const FLAGS_DATA = [
     ],
     "imageUrl": "assets/flags/Fluidflux_Flag.svg",
     "shortDesc": "Fluidflux is a pride identity flag featured in the LGBTQIA+ Pride Flag Gallery.",
-    "description": "Fluidflux is a pride identity flag featured in the LGBTQIA+ Pride Flag Gallery.",
+    "description": "Fluidflux (or genderfluidflux) describes an identity where a person's gender is both fluid (changing between different genders) and fluctuating in intensity (varying from strongly gendered to little or no gender).",
     "stripes": [
       {
         "color": "#000000",
@@ -5086,7 +5086,7 @@ export const FLAGS_DATA = [
     ],
     "imageUrl": "assets/flags/Aegosexual_Flag.svg",
     "shortDesc": "Aegosexual is a pride identity flag featured in the LGBTQIA+ Pride Flag Gallery.",
-    "description": "Aegosexual is a pride identity flag featured in the LGBTQIA+ Pride Flag Gallery.",
+    "description": "Aegosexuality describes experiencing sexual attraction or arousal without the desire to participate in sexual activity oneself.",
     "stripes": [
       {
         "color": "#800080",
@@ -5273,7 +5273,7 @@ export const FLAGS_DATA = [
     ],
     "imageUrl": "assets/flags/Androromantic_flag.svg",
     "shortDesc": "Androromantic is a pride identity flag featured in the LGBTQIA+ Pride Flag Gallery.",
-    "description": "Androromantic is a pride identity flag featured in the LGBTQIA+ Pride Flag Gallery.",
+    "description": "An androromantic person is romantically attracted to men, boys, or masculine gender presentations. This describes romantic attraction rather than sexual attraction, and it works independently of the person's own gender identity.",
     "stripes": [
       {
         "color": "#FF1B8D",
@@ -5310,7 +5310,7 @@ export const FLAGS_DATA = [
     ],
     "imageUrl": "assets/flags/Gyneromantic_flag.svg",
     "shortDesc": "Gyneromantic is a pride identity flag featured in the LGBTQIA+ Pride Flag Gallery.",
-    "description": "Gyneromantic is a pride identity flag featured in the LGBTQIA+ Pride Flag Gallery.",
+    "description": "Refers to a romantic attraction to women, or to people who present femininely regardless of their assigned sex or gender identity.",
     "stripes": [
       {
         "color": "#FF1B8D",
@@ -5347,7 +5347,7 @@ export const FLAGS_DATA = [
     ],
     "imageUrl": "assets/flags/Abroromantic_flag.svg",
     "shortDesc": "Abroromantic is a pride identity flag featured in the LGBTQIA+ Pride Flag Gallery.",
-    "description": "Abroromantic is a pride identity flag featured in the LGBTQIA+ Pride Flag Gallery.",
+    "description": "Abroromantic , or abromantic, refers to an individual whose romantic attraction is changeable or fluid. This can involve shifting between any romantic identity, such as those on the monoromantic , multiromantic , alloromantic , or aromantic spectrum . The gender(s) the person is attracted to may change, and the intensity of attraction may also vary. While it's possible (and even common) for a person's romantic identity to change or evolve in some way throughout their life, an abroromantic individual's attraction may shift more frequently, over hours, days, months, or years. Because of their inconsistent attraction, some abroromantic individuals may not feel compelled to pursue a relationship or may prefer one where the exact nature of the relationship changes. Abroromantic can overlap with aroflux , but the difference is that, generally for aroflux individuals , when they experience attraction, the gender(s) they are attracted to are always the same—the only thing that changes is how or to what extent they are attracted to them. For abroromantic individuals , the gender(s) they are attracted to can change. The term abroromantic is sometimes considered to be part of the aromantic spectrum , as abroromantic individuals can sometimes be aromantic or aro-spec .",
     "stripes": [
       {
         "color": "#76CB93",
@@ -5712,7 +5712,7 @@ export const FLAGS_DATA = [
     ],
     "imageUrl": "assets/flags/Apothiromantic_flag.svg",
     "shortDesc": "Apothiromantic is a pride identity flag featured in the LGBTQIA+ Pride Flag Gallery.",
-    "description": "Apothiromantic is a pride identity flag featured in the LGBTQIA+ Pride Flag Gallery.",
+    "description": "Represents individuals on the aromantic spectrum who do not experience romantic attraction and are romance-repulsed.",
     "stripes": [
       {
         "color": "#FF9CCE",
@@ -5752,7 +5752,7 @@ export const FLAGS_DATA = [
     ],
     "imageUrl": "assets/flags/Apothisexual_Flag.svg",
     "shortDesc": "Apothisexual is a pride identity flag featured in the LGBTQIA+ Pride Flag Gallery.",
-    "description": "Apothisexual is a pride identity flag featured in the LGBTQIA+ Pride Flag Gallery.",
+    "description": "Represents individuals on the asexual spectrum who are sex-repulsed.",
     "stripes": [
       {
         "color": "#FF9CCE",
@@ -5847,7 +5847,7 @@ export const FLAGS_DATA = [
     ],
     "imageUrl": "assets/flags/Enbian_flag.svg",
     "shortDesc": "Enbian is a pride identity flag featured in the LGBTQIA+ Pride Flag Gallery.",
-    "description": "Enbian is a pride identity flag featured in the LGBTQIA+ Pride Flag Gallery.",
+    "description": "A term for non-binary (enby) individuals attracted to other non-binary individuals, or a relationship where everyone involved is non-binary.",
     "stripes": [
       {
         "color": "#AB89DD",
