@@ -2885,7 +2885,7 @@ export const FLAGS_DATA = [
   },
   {
     "id": "lgbtqia_variant_3",
-    "name": "LGBTQIA+ (Variant 3)",
+    "name": "LGBTQI",
     "category": "Gender Identities",
     "categories": [
       "Gender Identities"
@@ -4705,7 +4705,7 @@ export const FLAGS_DATA = [
   },
   {
     "id": "lgbtqia_variant_5",
-    "name": "LGBTQIA+ (Variant 5)",
+    "name": "LGBTQIA+ (Philadelphia Pride)",
     "category": "Sexual Orientations",
     "categories": [
       "Sexual Orientations"
@@ -4717,42 +4717,42 @@ export const FLAGS_DATA = [
       {
         "color": "#750787",
         "label": "Color #750787",
-        "meaning": "Symbolic stripe (#750787) of the LGBTQIA+ (Variant 5) flag."
+        "meaning": "Symbolic stripe (#750787) of the LGBTQIA+ (Philadelphia Pride) flag."
       },
       {
         "color": "#004DFF",
         "label": "Color #004DFF",
-        "meaning": "Symbolic stripe (#004DFF) of the LGBTQIA+ (Variant 5) flag."
+        "meaning": "Symbolic stripe (#004DFF) of the LGBTQIA+ (Philadelphia Pride) flag."
       },
       {
         "color": "#008026",
         "label": "Color #008026",
-        "meaning": "Symbolic stripe (#008026) of the LGBTQIA+ (Variant 5) flag."
+        "meaning": "Symbolic stripe (#008026) of the LGBTQIA+ (Philadelphia Pride) flag."
       },
       {
         "color": "#FFED00",
         "label": "Color #FFED00",
-        "meaning": "Symbolic stripe (#FFED00) of the LGBTQIA+ (Variant 5) flag."
+        "meaning": "Symbolic stripe (#FFED00) of the LGBTQIA+ (Philadelphia Pride) flag."
       },
       {
         "color": "#FF8C00",
         "label": "Color #FF8C00",
-        "meaning": "Symbolic stripe (#FF8C00) of the LGBTQIA+ (Variant 5) flag."
+        "meaning": "Symbolic stripe (#FF8C00) of the LGBTQIA+ (Philadelphia Pride) flag."
       },
       {
         "color": "#E40303",
         "label": "Color #E40303",
-        "meaning": "Symbolic stripe (#E40303) of the LGBTQIA+ (Variant 5) flag."
+        "meaning": "Symbolic stripe (#E40303) of the LGBTQIA+ (Philadelphia Pride) flag."
       },
       {
         "color": "#784F17",
         "label": "Color #784F17",
-        "meaning": "Symbolic stripe (#784F17) of the LGBTQIA+ (Variant 5) flag."
+        "meaning": "Symbolic stripe (#784F17) of the LGBTQIA+ (Philadelphia Pride) flag."
       }
     ],
     "tags": [
       "lgbtqia+",
-      "lgbtqia+ (variant 5)",
+      "lgbtqia+ (philadelphia pride)",
       "8+ stripes",
       "5)",
       "sexual orientations",
