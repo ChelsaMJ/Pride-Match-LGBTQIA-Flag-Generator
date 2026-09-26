@@ -2885,7 +2885,7 @@ export const FLAGS_DATA = [
   },
   {
     "id": "lgbtqia_variant_3",
-    "name": "LGBTQI",
+    "name": "LGBTQIA+ (Intersex-Inclusive Progress Pride)",
     "category": "Gender Identities",
     "categories": [
       "Gender Identities"
