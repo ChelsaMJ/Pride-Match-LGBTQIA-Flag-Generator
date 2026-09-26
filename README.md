@@ -2,6 +2,8 @@
 
 PrideMatch is an educational LGBT+ identity and pride flag explorer. It includes a searchable flag encyclopedia, an identity and attraction analyzer, stripe meaning details, and guidance for understanding the Split Attraction Model (SAM).
 
+Visit the deployed site: [https://pride-match-lgbtqia-flag-generator.vercel.app/]
+
 ## Features
 
 - Browse 125+ pride flags by category
