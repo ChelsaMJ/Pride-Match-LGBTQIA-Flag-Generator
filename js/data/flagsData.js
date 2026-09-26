@@ -838,7 +838,7 @@ export const FLAGS_DATA = [
   },
   {
     "id": "lesbian",
-    "name": "Lesbian",
+    "name": "Lesbian (Sappho)",
     "category": "Sexual Orientations",
     "categories": [
       "Sexual Orientations"
@@ -850,22 +850,22 @@ export const FLAGS_DATA = [
       {
         "color": "#663399",
         "label": "Color #663399",
-        "meaning": "Symbolic stripe (#663399) of the Lesbian flag."
+        "meaning": "Symbolic stripe (#663399) of the Lesbian (Sappho) flag."
       },
       {
         "color": "#FF6699",
         "label": "Color #FF6699",
-        "meaning": "Symbolic stripe (#FF6699) of the Lesbian flag."
+        "meaning": "Symbolic stripe (#FF6699) of the Lesbian (Sappho) flag."
       },
       {
         "color": "#FFCC33",
         "label": "Color #FFCC33",
-        "meaning": "Symbolic stripe (#FFCC33) of the Lesbian flag."
+        "meaning": "Symbolic stripe (#FFCC33) of the Lesbian (Sappho) flag."
       },
       {
         "color": "#66CC33",
         "label": "Color #66CC33",
-        "meaning": "Symbolic stripe (#66CC33) of the Lesbian flag."
+        "meaning": "Symbolic stripe (#66CC33) of the Lesbian (Sappho) flag."
       }
     ],
     "tags": [
@@ -1491,7 +1491,7 @@ export const FLAGS_DATA = [
   },
   {
     "id": "lesbian_variant_2",
-    "name": "Lesbian (Labrys)",
+    "name": "Lesbian",
     "category": "Sexual Orientations",
     "categories": [
       "Sexual Orientations"
@@ -1503,27 +1503,27 @@ export const FLAGS_DATA = [
       {
         "color": "#D42C00",
         "label": "Color #D42C00",
-        "meaning": "Symbolic stripe (#D42C00) of the Lesbian (Variant 2) flag."
+        "meaning": "Symbolic stripe (#D42C00) of the Lesbian flag."
       },
       {
         "color": "#FD9855",
         "label": "Color #FD9855",
-        "meaning": "Symbolic stripe (#FD9855) of the Lesbian (Variant 2) flag."
+        "meaning": "Symbolic stripe (#FD9855) of the Lesbian flag."
       },
       {
         "color": "#FFFFFF",
         "label": "Color #FFFFFF",
-        "meaning": "Symbolic stripe (#FFFFFF) of the Lesbian (Variant 2) flag."
+        "meaning": "Symbolic stripe (#FFFFFF) of the Lesbian flag."
       },
       {
         "color": "#D161A2",
         "label": "Color #D161A2",
-        "meaning": "Symbolic stripe (#D161A2) of the Lesbian (Variant 2) flag."
+        "meaning": "Symbolic stripe (#D161A2) of the Lesbian flag."
       },
       {
         "color": "#A20161",
         "label": "Color #A20161",
-        "meaning": "Symbolic stripe (#A20161) of the Lesbian (Variant 2) flag."
+        "meaning": "Symbolic stripe (#A20161) of the Lesbian flag."
       }
     ],
     "tags": [
@@ -2804,7 +2804,7 @@ export const FLAGS_DATA = [
   },
   {
     "id": "lgbtqia_variant_2",
-    "name": "LGBTQIA+ (Variant 2)",
+    "name": "Progress Pride",
     "category": "Sexual Orientations",
     "categories": [
       "Sexual Orientations"
@@ -2897,57 +2897,57 @@ export const FLAGS_DATA = [
       {
         "color": "#6D2380",
         "label": "Color #6D2380",
-        "meaning": "Symbolic stripe (#6D2380) of the LGBTQIA+ (Variant 3) flag."
+        "meaning": "Symbolic stripe (#6D2380) of the Progress_Pride flag."
       },
       {
         "color": "#2C58A4",
         "label": "Color #2C58A4",
-        "meaning": "Symbolic stripe (#2C58A4) of the LGBTQIA+ (Variant 3) flag."
+        "meaning": "Symbolic stripe (#2C58A4) of the Progress_Pride flag."
       },
       {
         "color": "#78B82A",
         "label": "Color #78B82A",
-        "meaning": "Symbolic stripe (#78B82A) of the LGBTQIA+ (Variant 3) flag."
+        "meaning": "Symbolic stripe (#78B82A) of the Progress_Pride flag."
       },
       {
         "color": "#EFE524",
         "label": "Color #EFE524",
-        "meaning": "Symbolic stripe (#EFE524) of the LGBTQIA+ (Variant 3) flag."
+        "meaning": "Symbolic stripe (#EFE524) of the Progress_Pride flag."
       },
       {
         "color": "#F28917",
         "label": "Color #F28917",
-        "meaning": "Symbolic stripe (#F28917) of the LGBTQIA+ (Variant 3) flag."
+        "meaning": "Symbolic stripe (#F28917) of the Progress_Pride flag."
       },
       {
         "color": "#E22016",
         "label": "Color #E22016",
-        "meaning": "Symbolic stripe (#E22016) of the LGBTQIA+ (Variant 3) flag."
+        "meaning": "Symbolic stripe (#E22016) of the Progress_Pride flag."
       },
       {
         "color": "#945516",
         "label": "Color #945516",
-        "meaning": "Symbolic stripe (#945516) of the LGBTQIA+ (Variant 3) flag."
+        "meaning": "Symbolic stripe (#945516) of the Progress_Pride flag."
       },
       {
         "color": "#7BCCE5",
         "label": "Color #7BCCE5",
-        "meaning": "Symbolic stripe (#7BCCE5) of the LGBTQIA+ (Variant 3) flag."
+        "meaning": "Symbolic stripe (#7BCCE5) of the Progress_Pride flag."
       },
       {
         "color": "#F4AEC8",
         "label": "Color #F4AEC8",
-        "meaning": "Symbolic stripe (#F4AEC8) of the LGBTQIA+ (Variant 3) flag."
+        "meaning": "Symbolic stripe (#F4AEC8) of the Progress_Pride flag."
       },
       {
         "color": "#FFFFFF",
         "label": "Color #FFFFFF",
-        "meaning": "Symbolic stripe (#FFFFFF) of the LGBTQIA+ (Variant 3) flag."
+        "meaning": "Symbolic stripe (#FFFFFF) of the Progress_Pride flag."
       },
       {
         "color": "#FDD817",
         "label": "Color #FDD817",
-        "meaning": "Symbolic stripe (#FDD817) of the LGBTQIA+ (Variant 3) flag."
+        "meaning": "Symbolic stripe (#FDD817) of the Progress_Pride flag."
       }
     ],
     "tags": [
@@ -3028,7 +3028,7 @@ export const FLAGS_DATA = [
   },
   {
     "id": "lesbian_variant_3",
-    "name": "Lesbian (Variant 3)",
+    "name": "Lesbian (Double_Venus)",
     "category": "Sexual Orientations",
     "categories": [
       "Sexual Orientations"
@@ -3040,7 +3040,7 @@ export const FLAGS_DATA = [
       {
         "color": "#7C3AED",
         "label": "Primary Accent",
-        "meaning": "Core color of Lesbian (Variant 3)"
+        "meaning": "Core color of Lesbian (Double_Venus) flag"
       },
       {
         "color": "#FFFFFF",
@@ -3054,10 +3054,10 @@ export const FLAGS_DATA = [
       }
     ],
     "tags": [
-      "lesbian variant 3",
-      "3)",
+      "lesbian double_venus",
+      "double_venus",
       "lesbian",
-      "lesbian (variant 3)",
+      "lesbian (double_venus)",
       "6 stripes",
       "sexual orientations",
       "(variant"
@@ -4639,7 +4639,7 @@ export const FLAGS_DATA = [
   },
   {
     "id": "lgbtqia_variant_4",
-    "name": "LGBTQIA+ (Variant 4)",
+    "name": "LGBTQIA+ (Gilbert Baker Original)",
     "category": "Sexual Orientations",
     "categories": [
       "Sexual Orientations"
@@ -4651,42 +4651,42 @@ export const FLAGS_DATA = [
       {
         "color": "#6B2D7E",
         "label": "Color #6B2D7E",
-        "meaning": "Symbolic stripe (#6B2D7E) of the LGBTQIA+ (Variant 4) flag."
+        "meaning": "Symbolic stripe (#6B2D7E) of the LGBTQIA+ (Gilbert Baker Original) flag."
       },
       {
         "color": "#2B3F88",
         "label": "Color #2B3F88",
-        "meaning": "Symbolic stripe (#2B3F88) of the LGBTQIA+ (Variant 4) flag."
+        "meaning": "Symbolic stripe (#2B3F88) of the LGBTQIA+ (Gilbert Baker Original) flag."
       },
       {
         "color": "#009AA6",
         "label": "Color #009AA6",
-        "meaning": "Symbolic stripe (#009AA6) of the LGBTQIA+ (Variant 4) flag."
+        "meaning": "Symbolic stripe (#009AA6) of the LGBTQIA+ (Gilbert Baker Original) flag."
       },
       {
         "color": "#00843D",
         "label": "Color #00843D",
-        "meaning": "Symbolic stripe (#00843D) of the LGBTQIA+ (Variant 4) flag."
+        "meaning": "Symbolic stripe (#00843D) of the LGBTQIA+ (Gilbert Baker Original) flag."
       },
       {
         "color": "#FFCD00",
         "label": "Color #FFCD00",
-        "meaning": "Symbolic stripe (#FFCD00) of the LGBTQIA+ (Variant 4) flag."
+        "meaning": "Symbolic stripe (#FFCD00) of the LGBTQIA+ (Gilbert Baker Original) flag."
       },
       {
         "color": "#FE5000",
         "label": "Color #FE5000",
-        "meaning": "Symbolic stripe (#FE5000) of the LGBTQIA+ (Variant 4) flag."
+        "meaning": "Symbolic stripe (#FE5000) of the LGBTQIA+ (Gilbert Baker Original) flag."
       },
       {
         "color": "#E4002B",
         "label": "Color #E4002B",
-        "meaning": "Symbolic stripe (#E4002B) of the LGBTQIA+ (Variant 4) flag."
+        "meaning": "Symbolic stripe (#E4002B) of the LGBTQIA+ (Gilbert Baker Original) flag."
       },
       {
         "color": "#E2248D",
         "label": "Color #E2248D",
-        "meaning": "Symbolic stripe (#E2248D) of the LGBTQIA+ (Variant 4) flag."
+        "meaning": "Symbolic stripe (#E2248D) of the LGBTQIA+ (Gilbert Baker Original) flag."
       }
     ],
     "tags": [
@@ -5163,7 +5163,7 @@ export const FLAGS_DATA = [
   },
   {
     "id": "lesbian_variant_5",
-    "name": "Lesbian (Variant 5)",
+    "name": "Lesbian (Labrys)",
     "category": "Sexual Orientations",
     "categories": [
       "Sexual Orientations",
@@ -5176,17 +5176,17 @@ export const FLAGS_DATA = [
       {
         "color": "#993399",
         "label": "Color #993399",
-        "meaning": "Symbolic stripe (#993399) of the Lesbian (Variant 5) flag."
+        "meaning": "Symbolic stripe (#993399) of the Lesbian (Labrys) flag."
       },
       {
         "color": "#FFFFFF",
         "label": "Color #FFFFFF",
-        "meaning": "Symbolic stripe (#FFFFFF) of the Lesbian (Variant 5) flag."
+        "meaning": "Symbolic stripe (#FFFFFF) of the Lesbian (Labrys) flag."
       }
     ],
     "tags": [
-      "lesbian (variant 5)",
-      "lesbian variant 5",
+      "lesbian (labrys)",
+      "lesbian labrys",
       "lesbian",
       "sexual orientations",
       "(variant",
