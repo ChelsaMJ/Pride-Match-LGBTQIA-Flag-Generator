@@ -407,7 +407,7 @@ export const FLAGS_DATA = [
     ],
     "tags": [
       "gender nonconforming",
-      "3 stripes",
+      "2 stripes",
       "gender",
       "gender non-conforming",
       "non-conforming",
@@ -559,7 +559,7 @@ export const FLAGS_DATA = [
     ],
     "tags": [
       "gender identities",
-      "3 stripes",
+      "2 stripes",
       "intergender"
     ],
     "sam": [
@@ -591,7 +591,7 @@ export const FLAGS_DATA = [
     ],
     "tags": [
       "sexual orientations",
-      "3 stripes",
+      "2 stripes",
       "achillean"
     ],
     "sam": [
@@ -735,7 +735,7 @@ export const FLAGS_DATA = [
     "tags": [
       "polyamorous",
       "attraction dynamics & labels",
-      "3 stripes"
+      "2 stripes"
     ],
     "sam": [
       "attraction"
@@ -781,7 +781,7 @@ export const FLAGS_DATA = [
     ],
     "tags": [
       "polyamorous (variant 2)",
-      "3 stripes",
+      "5 stripes",
       "polyamorous",
       "polyamorous variant 2",
       "(variant",
@@ -1403,7 +1403,7 @@ export const FLAGS_DATA = [
     "tags": [
       "gender identities",
       "neurogender",
-      "4 stripes"
+      "3 stripes"
     ],
     "sam": [
       "gender"
@@ -1482,7 +1482,7 @@ export const FLAGS_DATA = [
     "tags": [
       "gender identities",
       "transgender",
-      "5 stripes"
+      "3 stripes"
     ],
     "sam": [
       "gender"
@@ -2128,7 +2128,7 @@ export const FLAGS_DATA = [
       "ace & aro spectrum",
       "romantic orientations",
       "grayromantic",
-      "5 stripes"
+      "3 stripes"
     ],
     "sam": [
       "romantic",
@@ -2167,7 +2167,7 @@ export const FLAGS_DATA = [
     "tags": [
       "grayasexual",
       "ace & aro spectrum",
-      "5 stripes",
+      "3 stripes",
       "sexual orientations",
       "gray-asexual"
     ],
@@ -2309,7 +2309,7 @@ export const FLAGS_DATA = [
     "tags": [
       "gender identities",
       "aporagender",
-      "5 stripes"
+      "4 stripes"
     ],
     "sam": [
       "gender"
@@ -2442,7 +2442,7 @@ export const FLAGS_DATA = [
       "gender identities",
       "attraction dynamics & labels",
       "polygender",
-      "5 stripes"
+      "3 stripes"
     ],
     "sam": [
       "gender",
@@ -2480,7 +2480,7 @@ export const FLAGS_DATA = [
     "tags": [
       "trigender",
       "gender identities",
-      "5 stripes"
+      "3 stripes"
     ],
     "sam": [
       "gender"
@@ -2517,7 +2517,7 @@ export const FLAGS_DATA = [
     "tags": [
       "transmasculine",
       "gender identities",
-      "5 stripes"
+      "3 stripes"
     ],
     "sam": [
       "gender"
@@ -2554,7 +2554,7 @@ export const FLAGS_DATA = [
     "tags": [
       "gender identities",
       "transfeminine",
-      "5 stripes"
+      "3 stripes"
     ],
     "sam": [
       "gender"
@@ -2647,7 +2647,7 @@ export const FLAGS_DATA = [
       "ace & aro spectrum",
       "graygender",
       "gender identities",
-      "5 stripes"
+      "4 stripes"
     ],
     "sam": [
       "ace_aro",
@@ -2873,8 +2873,7 @@ export const FLAGS_DATA = [
       "lgbtqia+",
       "lgbtqia variant 2",
       "sexual orientations",
-      "6 stripes",
-      "(variant",
+      "11 stripes",
       "lgbtqia+ (variant 2)",
       "2)"
     ],
@@ -2955,7 +2954,7 @@ export const FLAGS_DATA = [
       "lgbtqia variant 3",
       "3)",
       "(variant",
-      "6 stripes",
+      "11 stripes",
       "lgbtqia+ (variant 3)",
       "gender identities"
     ],
@@ -3018,7 +3017,7 @@ export const FLAGS_DATA = [
     ],
     "tags": [
       "ally",
-      "6 stripes",
+      "8 stripes",
       "sexual orientations"
     ],
     "sam": [
@@ -3058,7 +3057,7 @@ export const FLAGS_DATA = [
       "double_venus",
       "lesbian",
       "lesbian (double_venus)",
-      "6 stripes",
+      "3 stripes",
       "sexual orientations",
       "(variant"
     ],
@@ -3096,7 +3095,7 @@ export const FLAGS_DATA = [
     ],
     "tags": [
       "sexual orientations",
-      "6 stripes",
+      "3 stripes",
       "two-spirit",
       "twospirit"
     ],
@@ -3415,7 +3414,7 @@ export const FLAGS_DATA = [
       }
     ],
     "tags": [
-      "7 stripes",
+      "4 stripes",
       "pomosexual",
       "sexual orientations"
     ],
@@ -3457,7 +3456,7 @@ export const FLAGS_DATA = [
       }
     ],
     "tags": [
-      "7 stripes",
+      "4 stripes",
       "agender",
       "gender identities"
     ],
@@ -3494,7 +3493,7 @@ export const FLAGS_DATA = [
       }
     ],
     "tags": [
-      "7 stripes",
+      "3 stripes",
       "agenderflux",
       "gender identities"
     ],
@@ -3546,7 +3545,7 @@ export const FLAGS_DATA = [
       "(variant",
       "androgyne variant 2",
       "androgyne (variant 2)",
-      "7 stripes",
+      "5 stripes",
       "2)"
     ],
     "sam": [
@@ -3588,7 +3587,7 @@ export const FLAGS_DATA = [
       }
     ],
     "tags": [
-      "7 stripes",
+      "4 stripes",
       "demigender",
       "gender identities",
       "ace & aro spectrum"
@@ -3633,7 +3632,7 @@ export const FLAGS_DATA = [
       }
     ],
     "tags": [
-      "7 stripes",
+      "4 stripes",
       "gender identities",
       "demiboy",
       "ace & aro spectrum"
@@ -3678,7 +3677,7 @@ export const FLAGS_DATA = [
       }
     ],
     "tags": [
-      "7 stripes",
+      "4 stripes",
       "demigirl",
       "gender identities",
       "ace & aro spectrum"
@@ -3717,7 +3716,7 @@ export const FLAGS_DATA = [
       }
     ],
     "tags": [
-      "7 stripes",
+      "3 stripes",
       "demifluid",
       "ace & aro spectrum"
     ],
@@ -3764,7 +3763,7 @@ export const FLAGS_DATA = [
       }
     ],
     "tags": [
-      "7 stripes",
+      "5 stripes",
       "ace & aro spectrum",
       "demiflux"
     ],
@@ -3806,7 +3805,7 @@ export const FLAGS_DATA = [
       }
     ],
     "tags": [
-      "7 stripes",
+      "4 stripes",
       "boyflux",
       "gender identities"
     ],
@@ -3848,7 +3847,7 @@ export const FLAGS_DATA = [
       }
     ],
     "tags": [
-      "7 stripes",
+      "4 stripes",
       "gender identities",
       "girlflux"
     ],
@@ -4075,7 +4074,7 @@ export const FLAGS_DATA = [
       "bigender variant 2",
       "gender identities",
       "(variant",
-      "7 stripes",
+      "6 stripes",
       "bigender (variant 2)",
       "2)"
     ],
@@ -4118,7 +4117,7 @@ export const FLAGS_DATA = [
     ],
     "tags": [
       "pangender",
-      "7 stripes",
+      "4 stripes",
       "gender identities"
     ],
     "sam": [
@@ -4163,7 +4162,7 @@ export const FLAGS_DATA = [
       "non-binary",
       "non-binary boy",
       "gender identities",
-      "7 stripes",
+      "4 stripes",
       "boy"
     ],
     "sam": [
@@ -4254,7 +4253,7 @@ export const FLAGS_DATA = [
       "gender identities",
       "(variant",
       "transmasculine",
-      "7 stripes",
+      "4 stripes",
       "2)"
     ],
     "sam": [

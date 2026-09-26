@@ -5,20 +5,24 @@ import { FLAGS_DATA } from '../data/flagsData.js';
 
 // Synonyms and semantic feature dictionary
 const DICTIONARY = {
-  women: ['woman', 'women', 'girl', 'girls', 'female', 'females', 'feminine', 'feminine people', 'wlw', 'ladies', 'she', 'her'],
-  men: ['man', 'men', 'guy', 'guys', 'male', 'males', 'masculine', 'masculine people', 'mlm', 'fellas', 'he', 'him'],
-  nonbinary: ['nonbinary', 'non-binary', 'non binary', 'enby', 'enbies', 'nb', 'genderqueer', 'genderfluid', 'neutral gender', 'they', 'them', 'genderless', 'agender', 'beyond binary', 'outside the binary'],
-  all_genders: ['everyone', 'all genders', 'any gender', 'any gender identity', 'people of any gender', 'people of all genders', 'regardless of gender', 'gender does not matter', 'without regard to gender'],
-  no_attraction: ['no attraction', 'no attraction at all', 'don\'t feel attraction', 'do not feel attraction', 'never attracted', 'not attracted', 'zero attraction', 'lack attraction', 'without attraction'],
-  no_sexual_attraction: ['no sexual attraction', 'no physical attraction', 'don\'t experience sexual attraction', 'do not experience sexual attraction', 'never feel sexual attraction', 'not sexually attracted', 'not attracted sexually', 'without sexual attraction', 'no sex drive toward people', 'no desire for sex', 'not interested in sex'],
-  no_romantic_attraction: ['no romantic attraction', 'don\'t experience romantic attraction', 'do not experience romantic attraction', 'never feel romantic attraction', 'not romantically attracted', 'not attracted romantically', 'no romance', 'no romantic feelings', 'no crushes', 'never get crushes'],
+  women: ['woman', 'women', 'girl', 'girls', 'female', 'females', 'female-aligned', 'feminine', 'feminine people', 'wlw', 'ladies'],
+  men: ['man', 'men', 'guy', 'guys', 'male', 'males', 'male-aligned', 'masculine', 'masculine people', 'mlm', 'fellas'],
+  nonbinary: ['nonbinary', 'non-binary', 'non binary', 'enby', 'enbies', 'nb', 'genderqueer', 'genderfluid', 'neutral gender', 'genderless', 'agender', 'beyond binary', 'outside the binary', 'not solely male or female', 'neither male nor female'],
+  all_genders: ['everyone', 'all genders', 'any gender', 'any gender identity', 'people of any gender', 'people of all genders', 'regardless of gender', 'regardless of their gender', 'gender does not matter', 'without regard to gender'],
+  multiple_genders: ['two or more genders', 'more than one gender', 'multiple genders', 'various genders', 'different genders'],
+  no_attraction: ['no attraction', 'no attraction at all', 'little to no attraction', 'don\'t feel attraction', 'do not feel attraction', 'never attracted', 'not attracted', 'zero attraction', 'lack attraction', 'without attraction'],
+  no_sexual_attraction: ['no sexual attraction', 'little to no sexual attraction', 'no physical attraction', 'don\'t experience sexual attraction', 'do not experience sexual attraction', 'never feel sexual attraction', 'not sexually attracted', 'not attracted sexually', 'without sexual attraction', 'no sex drive toward people', 'no desire for sex', 'not interested in sex'],
+  no_romantic_attraction: ['no romantic attraction', 'little to no romantic attraction', 'don\'t experience romantic attraction', 'do not experience romantic attraction', 'never feel romantic attraction', 'not romantically attracted', 'not attracted romantically', 'no romance', 'no romantic feelings', 'no crushes', 'never get crushes'],
   low_sexual_attraction: ['minimal sexual attraction', 'very minimal sexual attraction', 'little sexual attraction', 'very little sexual attraction', 'low sexual attraction', 'weak sexual attraction', 'minimal physical attraction', 'rare sexual attraction', 'infrequent sexual attraction', 'sexual attraction is faint', 'sexual attraction is weak'],
   opposite_gender: ['straight', 'heterosexual', 'hetero', 'heteroromantic', 'attracted to the opposite gender', 'attracted to a different gender', 'opposite-sex attraction'],
   emotional_bond: ['emotional bond', 'emotional connection', 'deep connection', 'know them well', 'friends first', 'close friend', 'after connection', 'after getting close', 'emotional relationship', 'strong bond', 'bond first', 'trust first', 'only after intimacy'],
   rare_attraction: ['rarely', 'seldom', 'weakly', 'sometimes', 'infrequently', 'once in a blue moon', 'low intensity', 'low-intensity', 'grey area', 'gray area', 'once in a while'],
   fluidity: ['changes', 'shifting', 'fluctuates', 'fluid', 'different days', 'sometimes boy sometimes girl', 'evolving', 'varies', 'can change', 'not fixed', 'changes over time'],
   fantasies_only: ['fantasy', 'fantasies', 'reading romance', 'romantic fiction', 'erotica', 'erotic fiction', 'fictional characters', 'imaginary people', 'disconnected', 'third person', 'don\'t want in real life', 'not in real life'],
-  wants_relationship: ['wants sex', 'desires relationship', 'want intimacy', 'wants intimacy', 'without feeling turned on', 'wants romance', 'desires romance', 'likes romantic relationships', 'wants a partner'],
+  wants_relationship: ['wants sex', 'desires relationship', 'want intimacy', 'wants intimacy', 'without feeling turned on', 'wants romance', 'desires romance', 'likes romantic relationships', 'wants a partner', 'desires a romantic relationship', 'more than one partner', 'multiple partners', 'relationship with more than one partner'],
+  platonic_or_alterous: ['platonic attraction', 'platonic relationship', 'alterous attraction', 'queerplatonic', 'queerplatonic relationship', 'deep friendship', 'self-love'],
+  romantic_uncertainty: ['unclear romantic attraction', 'romantic attraction is unclear', 'inapplicable romantic attraction', 'indistinguishable from platonic attraction', 'boundary of romance', 'threshold of romance'],
+  attraction_fades: ['attraction fades', 'fades as familiarity grows', 'fades as a deeper bond forms', 'fades as emotional intimacy grows'],
   self_man: ['i am a man', 'i am a guy', 'i\'m a boy', 'i am male', 'as a man', 'as a guy', 'my gender is male', 'my gender is man'],
   self_woman: ['i am a woman', 'i am a girl', 'i\'m female', 'as a woman', 'as a girl', 'my gender is female', 'my gender is woman'],
   self_enby: ['i am nonbinary', 'i am enby', 'my gender is enby', 'my gender is nonbinary', 'as a non-binary person', 'neither male nor female', 'not a man or woman']
@@ -64,6 +68,9 @@ export class NaturalLanguageMatcher {
     for (const phrase of DICTIONARY.all_genders) {
       if (normalizedText.includes(phrase)) traits.targets.add('all');
     }
+    for (const phrase of DICTIONARY.multiple_genders) {
+      if (normalizedText.includes(phrase)) traits.targets.add('multiple');
+    }
 
     // Conditions & Spectrum Dynamics
     for (const phrase of DICTIONARY.no_attraction) {
@@ -95,6 +102,15 @@ export class NaturalLanguageMatcher {
     }
     for (const phrase of DICTIONARY.wants_relationship) {
       if (normalizedText.includes(phrase)) traits.conditions.add('wants_relationship');
+    }
+    for (const phrase of DICTIONARY.platonic_or_alterous) {
+      if (normalizedText.includes(phrase)) traits.conditions.add('platonic_or_alterous');
+    }
+    for (const phrase of DICTIONARY.romantic_uncertainty) {
+      if (normalizedText.includes(phrase)) traits.conditions.add('romantic_uncertainty');
+    }
+    for (const phrase of DICTIONARY.attraction_fades) {
+      if (normalizedText.includes(phrase)) traits.conditions.add('attraction_fades');
     }
 
     // Self Gender Identity
@@ -223,6 +239,27 @@ export class NaturalLanguageMatcher {
         }
       }
 
+      if (traits.conditions.has('platonic_or_alterous')) {
+        if (item.id === 'quoiromantic' || item.id === 'aromantic_asexual') {
+          score += 35;
+          matchReasons.push('Matched platonic, alterous, or non-romantic attraction');
+        }
+      }
+
+      if (traits.conditions.has('romantic_uncertainty')) {
+        if (item.id === 'quoiromantic' || item.id === 'desinoromantic') {
+          score += 50;
+          matchReasons.push('Matched uncertainty or an indistinct boundary around romantic attraction');
+        }
+      }
+
+      if (traits.conditions.has('attraction_fades')) {
+        if (item.id === 'fraysexual' || item.id === 'frayromantic') {
+          score += 50;
+          matchReasons.push('Matched attraction that fades as familiarity or emotional intimacy grows');
+        }
+      }
+
       // 3. Target Gender alignment
       if (traits.targets.has('women') && traits.targets.has('men')) {
         if (['bisexual', 'pansexual', 'omnioriented', 'polysexual'].includes(item.id)) {
@@ -248,6 +285,13 @@ export class NaturalLanguageMatcher {
         }
       }
 
+      if (traits.targets.has('multiple')) {
+        if (['bisexual', 'polysexual', 'pansexual', 'omnioriented'].includes(item.id)) {
+          score += 35;
+          matchReasons.push('Attraction to two or more genders');
+        }
+      }
+
       if (traits.conditions.has('opposite_gender')) {
         if (traits.targets.has('men') && ['androsexual', 'androromantic'].includes(item.id)) {
           score += 35;
@@ -269,6 +313,17 @@ export class NaturalLanguageMatcher {
             matchReasons.push(`Similar to phrase: "${phrase}"`);
           }
         });
+      }
+
+      // Updated descriptions provide a lightweight fallback when users echo the database wording.
+      const descriptionText = [item.shortDesc, item.description]
+        .filter(Boolean)
+        .map(text => this.normalizeText(text))
+        .join(' ');
+      const descriptionOverlap = [...new Set(descriptionText.split(' '))]
+        .filter(word => word.length > 5 && normalized.includes(word));
+      if (descriptionOverlap.length >= 2) {
+        score += Math.min(12, descriptionOverlap.length * 2);
       }
 
       // Explicitly absent attraction should not recommend labels that describe experiencing it.
