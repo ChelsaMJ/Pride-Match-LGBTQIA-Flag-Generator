@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 175 329" width="700" height="1316">
+  <path fill="#A50162" d="M0 0H329V15H0Z"/>
+  <path fill="#B75592" d="M0 15H329V30H0Z"/>
+  <path fill="#D162A6" d="M0 30H329V45H0Z"/>
+  <path fill="#EDEDEB" d="M0 45H329V60H0Z"/>
+  <path fill="#FF9B57" d="M0 60H329V75H0Z"/>
+  <path fill="#F07528" d="M0 75H329V90H0Z"/>
+  <path fill="#D62C00" d="M0 90H329V105H0Z"/>
+
+  <path fill="#A20161" d="M0 112H329V127H0Z"/>
+  <path fill="#B55690" d="M0 127H329V142H0Z"/>
+  <path fill="#E695CF" d="M0 142H329V157H0Z"/>
+  <path fill="#ECECEA" d="M0 157H329V172H0Z"/>
+  <path fill="#FB8E63" d="M0 172H329V187H0Z"/>
+  <path fill="#C44F55" d="M0 187H329V202H0Z"/>
+  <path fill="#89230A" d="M0 202H329V217H0Z"/>
+  
+  <path fill="#D62C00" d="M0 224H329V239H0Z"/>
+  <path fill="#F07528" d="M0 239H329V254H0Z"/>
+  <path fill="#FB8E63" d="M0 254H329V269H0Z"/>
+  <path fill="#ECECEA" d="M0 269H329V284H0Z"/>
+  <path fill="#D162A6" d="M0 284H329V309H0Z"/>
+  <path fill="#B55690" d="M0 299H329V314H0Z"/>
+  <path fill="#A20161" d="M0 314H329V339H0Z"/>
+</svg>
